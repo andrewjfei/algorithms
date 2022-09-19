@@ -11,7 +11,7 @@
 
 ### Algorithm List
 
-- Quick Sort
+- Quick Sort :white_check_mark:
 - Merge Sort
 - Breadth First Search (BFS)
 - Depth First Search (DFS)
