@@ -1,15 +1,16 @@
 package search;
 
+import dev.andrewjfei.search.BinarySearch;
 import dev.andrewjfei.search.BinaryTree;
 import dev.andrewjfei.search.BreadthFirstSearch;
-import dev.andrewjfei.search.DepthFirstSearch;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class DepthFirstSearchTest {
+public class BreadthFirstSearchTest {
     BinaryTree tree;
 
     @BeforeEach
@@ -32,7 +33,7 @@ public class DepthFirstSearchTest {
         tree = new BinaryTree();
 
         // When
-        boolean hasTarget = DepthFirstSearch.search(tree, 1);
+        boolean hasTarget = BreadthFirstSearch.search(tree, 1);
 
         // Then
         assertFalse(hasTarget);
@@ -46,7 +47,7 @@ public class DepthFirstSearchTest {
         tree.add(10);
 
         // When
-        boolean hasTarget = DepthFirstSearch.search(tree, element);
+        boolean hasTarget = BreadthFirstSearch.search(tree, element);
 
         // Then
         assertTrue(hasTarget);
@@ -58,7 +59,7 @@ public class DepthFirstSearchTest {
 
         // Given
         // When
-        boolean hasTarget = DepthFirstSearch.search(tree, element);
+        boolean hasTarget = BreadthFirstSearch.search(tree, element);
 
         // Then
         assertFalse(hasTarget);

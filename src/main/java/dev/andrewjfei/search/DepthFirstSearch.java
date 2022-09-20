@@ -1,7 +1,7 @@
 package dev.andrewjfei.search;
 
 /**
- * The {@code DepthFirstSearch} algorithm is able to search a tree in {@code O(n)} time. This is
+ * The {@code DepthFirstSearch} algorithm is able to search a tree in {@code O(n)} time. This is due to
  * traversing through every node in the tree.
  *
  * @author andrewjfei
@@ -25,7 +25,7 @@ public class DepthFirstSearch {
         }
 
         /**
-         * This {@code depthFirstSearch} method searches a tree for a target node, by traversing to as deep down the
+         * This {@code depthFirstSearch} method searches a tree for a target node, by traversing as deep down the
          * branches first before exploring the next branch.
          *
          * @param node the currently visited node.

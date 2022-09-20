@@ -14,6 +14,6 @@
 - Quick Sort :white_check_mark:
 - Merge Sort :white_check_mark:
 - Binary Search Algorithm :white_check_mark:
-- Breadth First Search (BFS)
-- Depth First Search (DFS)
+- Depth First Search (DFS) :white_check_mark:
+- Breadth First Search (BFS) :white_check_mark:
 - Dijkstra's Algorithm
