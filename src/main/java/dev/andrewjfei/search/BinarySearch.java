@@ -25,7 +25,7 @@ public class BinarySearch {
     }
 
     /**
-     * This {@code binarySearch} method search a portion of the original array given a starting and ending index. The
+     * This {@code binarySearch} method searches a portion of the original array given a starting and ending index. The
      * defined indexes provides a smaller search space which can be recursively called on.
      *
      * @param array the sorted array by ascending order to be searched.
